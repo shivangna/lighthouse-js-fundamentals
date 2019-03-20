@@ -1,6 +1,6 @@
-function sayHello(name) {
-  console.log("Hello, " + name);
+function returnSayHello (name) {
+  return "Hello " + name;
 }
+var greeting = returnSayHello('John');
+console.log(greeting);
 
-sayHello("Shivangna");
-sayHello("Rudraksh");
