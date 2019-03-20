@@ -3,7 +3,7 @@ function concat (array1,array2) {
     array1.push(array2 [i]);
   }
   return array1;
-  }
+}
 
 
 
